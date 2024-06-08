@@ -6,7 +6,7 @@ import { FaLocationArrow } from 'react-icons/fa'
 
 const Hero = () => {
     return (
-        <div className='pb-20 pt-36'>
+        <div className='pb-20 pt-20'>
             {/* Spotlight */}
             <div>
                 <Spotlight className='-top-40 -left-10 
@@ -21,7 +21,7 @@ const Hero = () => {
 
             {/* GRID BG */}
             <div className="h-screen w-full dark:bg-black-100 bg-white  
-            dark:bg-grid-white/[0.05] bg-grid-black/[0.2] 
+            dark:bg-grid-white/[0.02] bg-grid-black/[0.2] 
             flex items-center justify-center absolute top-0 left-0">
                 {/* Radial gradient for the container to give a faded look */}
                 <div className="absolute pointer-events-none inset-0 flex items-center justify-center
