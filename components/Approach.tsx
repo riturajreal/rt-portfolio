@@ -74,7 +74,12 @@ const Card = ({
         <div
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
-            className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative h-[25rem] lg:h-[30rem] rounded-xl"
+            className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  w-full mx-auto p-4 relative  h-[20rem] lg:h-[30rem] rounded-xl"
+            style={{
+                background: "rgb(4,7,29)",
+                  backgroundColor:
+                      "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)"
+              }}
         >
             <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white/[0.2] text-black" />
             <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white/[0.2] text-black" />
